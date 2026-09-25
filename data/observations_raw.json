@@ -1,0 +1,2224 @@
+{
+  "observations": [
+    {
+      "entity_id": "c01",
+      "checked_at": "2025-03-31",
+      "facts": {
+        "incorporation_date": "2021-09-01",
+        "licenses": [
+          "ISO",
+          "financial",
+          "fintech"
+        ],
+        "contracts_count": 34,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 2,
+          "prior_ventures": 2
+        },
+        "advisors": {
+          "relevant": 5,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 3,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 3,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c01",
+      "checked_at": "2025-06-30",
+      "facts": {
+        "incorporation_date": "2021-09-01",
+        "licenses": [
+          "ISO",
+          "financial",
+          "fintech"
+        ],
+        "contracts_count": 36,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 2,
+          "prior_ventures": 2
+        },
+        "advisors": {
+          "relevant": 5,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 3,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 3,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c01",
+      "checked_at": "2025-09-30",
+      "facts": {
+        "incorporation_date": "2021-09-01",
+        "licenses": [
+          "ISO",
+          "financial",
+          "fintech"
+        ],
+        "contracts_count": 38,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 2,
+          "prior_ventures": 2
+        },
+        "advisors": {
+          "relevant": 5,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 3,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 3,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c01",
+      "checked_at": "2025-12-31",
+      "facts": {
+        "incorporation_date": "2021-09-01",
+        "licenses": [
+          "ISO",
+          "financial",
+          "fintech"
+        ],
+        "contracts_count": 40,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 2,
+          "prior_ventures": 2
+        },
+        "advisors": {
+          "relevant": 5,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 4,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 4,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c01",
+      "checked_at": "2026-03-31",
+      "facts": {
+        "incorporation_date": "2021-09-01",
+        "licenses": [
+          "ISO",
+          "financial",
+          "fintech"
+        ],
+        "contracts_count": 42,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 2,
+          "prior_ventures": 2
+        },
+        "advisors": {
+          "relevant": 5,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 4,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 4,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c01",
+      "checked_at": "2026-06-30",
+      "facts": {
+        "incorporation_date": "2021-09-01",
+        "licenses": [
+          "ISO",
+          "financial",
+          "fintech"
+        ],
+        "contracts_count": 44,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 2,
+          "prior_ventures": 2
+        },
+        "advisors": {
+          "relevant": 5,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 4,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 4,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c02",
+      "checked_at": "2025-03-31",
+      "facts": {
+        "incorporation_date": "2019-11-15",
+        "licenses": [
+          "financial",
+          "fintech"
+        ],
+        "contracts_count": 22,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 3,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "weak"
+        }
+      }
+    },
+    {
+      "entity_id": "c02",
+      "checked_at": "2025-06-30",
+      "facts": {
+        "incorporation_date": "2019-11-15",
+        "licenses": [
+          "financial",
+          "fintech"
+        ],
+        "contracts_count": 22,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 3,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "weak"
+        }
+      }
+    },
+    {
+      "entity_id": "c02",
+      "checked_at": "2025-09-30",
+      "facts": {
+        "incorporation_date": "2019-11-15",
+        "licenses": [
+          "financial",
+          "fintech"
+        ],
+        "contracts_count": 25,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 3,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "weak"
+        }
+      }
+    },
+    {
+      "entity_id": "c02",
+      "checked_at": "2025-12-31",
+      "facts": {
+        "incorporation_date": "2019-11-15",
+        "licenses": [
+          "financial",
+          "fintech"
+        ],
+        "contracts_count": 27,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 4,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "weak"
+        }
+      }
+    },
+    {
+      "entity_id": "c02",
+      "checked_at": "2026-03-31",
+      "facts": {
+        "incorporation_date": "2019-11-15",
+        "licenses": [
+          "financial",
+          "fintech"
+        ],
+        "contracts_count": 27,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 4,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c02",
+      "checked_at": "2026-06-30",
+      "facts": {
+        "incorporation_date": "2019-11-15",
+        "licenses": [
+          "financial",
+          "fintech"
+        ],
+        "contracts_count": 28,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 4,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c03",
+      "checked_at": "2025-03-31",
+      "facts": {
+        "incorporation_date": "2024-11-01",
+        "licenses": [],
+        "contracts_count": 2,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 0
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": false,
+          "revenue_growth_years": 0,
+          "revenue_decline_years": 0,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "none",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c03",
+      "checked_at": "2025-06-30",
+      "facts": {
+        "incorporation_date": "2024-11-01",
+        "licenses": [],
+        "contracts_count": 2,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 0
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": false,
+          "revenue_growth_years": 0,
+          "revenue_decline_years": 0,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "none",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c03",
+      "checked_at": "2025-09-30",
+      "facts": {
+        "incorporation_date": "2024-11-01",
+        "licenses": [],
+        "contracts_count": 4,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 0
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": false,
+          "revenue_growth_years": 0,
+          "revenue_decline_years": 0,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "none",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c03",
+      "checked_at": "2025-12-31",
+      "facts": {
+        "incorporation_date": "2024-11-01",
+        "licenses": [],
+        "contracts_count": 6,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 0
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": false,
+          "revenue_growth_years": 0,
+          "revenue_decline_years": 0,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "none",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c03",
+      "checked_at": "2026-03-31",
+      "facts": {
+        "incorporation_date": "2024-11-01",
+        "licenses": [
+          "fintech"
+        ],
+        "contracts_count": 9,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 0
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 1,
+          "revenue_decline_years": 0,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "none",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c03",
+      "checked_at": "2026-06-30",
+      "facts": {
+        "incorporation_date": "2024-11-01",
+        "licenses": [
+          "fintech"
+        ],
+        "contracts_count": 9,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 0
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 1,
+          "revenue_decline_years": 0,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c04",
+      "checked_at": "2025-03-31",
+      "facts": {
+        "incorporation_date": "2022-05-10",
+        "licenses": [
+          "financial",
+          "ISO"
+        ],
+        "contracts_count": 15,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 2,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 0
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c04",
+      "checked_at": "2025-06-30",
+      "facts": {
+        "incorporation_date": "2022-05-10",
+        "licenses": [
+          "financial",
+          "ISO"
+        ],
+        "contracts_count": 15,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 2,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 0
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c04",
+      "checked_at": "2025-09-30",
+      "facts": {
+        "incorporation_date": "2022-05-10",
+        "licenses": [
+          "financial",
+          "ISO"
+        ],
+        "contracts_count": 17,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 2,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 0
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c04",
+      "checked_at": "2025-12-31",
+      "facts": {
+        "incorporation_date": "2022-05-10",
+        "licenses": [
+          "financial",
+          "ISO"
+        ],
+        "contracts_count": 18,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 2,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 3,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 0
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c04",
+      "checked_at": "2026-03-31",
+      "facts": {
+        "incorporation_date": "2022-05-10",
+        "licenses": [
+          "financial",
+          "ISO"
+        ],
+        "contracts_count": 18,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 2,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 0
+        },
+        "sanctions_hit": true,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 3,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 0
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c04",
+      "checked_at": "2026-06-30",
+      "facts": {
+        "incorporation_date": "2022-05-10",
+        "licenses": [
+          "financial",
+          "ISO"
+        ],
+        "contracts_count": 18,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 2,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 0
+        },
+        "sanctions_hit": true,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 3,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 0
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c05",
+      "checked_at": "2025-03-31",
+      "facts": {
+        "incorporation_date": "2020-02-20",
+        "licenses": [
+          "ISO"
+        ],
+        "contracts_count": 30,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 2
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 3,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c05",
+      "checked_at": "2025-06-30",
+      "facts": {
+        "incorporation_date": "2020-02-20",
+        "licenses": [
+          "ISO"
+        ],
+        "contracts_count": 31,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 2
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 3,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c05",
+      "checked_at": "2025-09-30",
+      "facts": {
+        "incorporation_date": "2020-02-20",
+        "licenses": [
+          "ISO"
+        ],
+        "contracts_count": 29,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 2
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 3,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 2,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c05",
+      "checked_at": "2025-12-31",
+      "facts": {
+        "incorporation_date": "2020-02-20",
+        "licenses": [
+          "ISO"
+        ],
+        "contracts_count": 26,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 2
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 1,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 2
+        },
+        "debt": "unscheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c05",
+      "checked_at": "2026-03-31",
+      "facts": {
+        "incorporation_date": "2020-02-20",
+        "licenses": [
+          "ISO"
+        ],
+        "contracts_count": 24,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 2
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 1,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 2
+        },
+        "debt": "unscheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c05",
+      "checked_at": "2026-06-30",
+      "facts": {
+        "incorporation_date": "2020-02-20",
+        "licenses": [
+          "ISO"
+        ],
+        "contracts_count": 22,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 2
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 1,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 2
+        },
+        "debt": "unscheduled",
+        "audit": "negative",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c06",
+      "checked_at": "2026-03-31",
+      "facts": {
+        "incorporation_date": "2026-01-10",
+        "licenses": [],
+        "contracts_count": 0,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 2,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": false,
+          "revenue_growth_years": 0,
+          "revenue_decline_years": 0,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "none",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c06",
+      "checked_at": "2026-06-30",
+      "facts": {
+        "incorporation_date": "2026-01-10",
+        "licenses": [],
+        "contracts_count": 1,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 2,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": false,
+          "revenue_growth_years": 0,
+          "revenue_decline_years": 0,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "none",
+        "audit": "none",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c07",
+      "checked_at": "2025-03-31",
+      "facts": {
+        "incorporation_date": "2013-04-01",
+        "licenses": [
+          "ISO",
+          "financial"
+        ],
+        "contracts_count": 60,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 3,
+          "prior_ventures": 3
+        },
+        "advisors": {
+          "relevant": 4,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 1,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c07",
+      "checked_at": "2025-06-30",
+      "facts": {
+        "incorporation_date": "2013-04-01",
+        "licenses": [
+          "ISO",
+          "financial"
+        ],
+        "contracts_count": 60,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 3,
+          "prior_ventures": 3
+        },
+        "advisors": {
+          "relevant": 4,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 1,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c07",
+      "checked_at": "2025-09-30",
+      "facts": {
+        "incorporation_date": "2013-04-01",
+        "licenses": [
+          "ISO",
+          "financial"
+        ],
+        "contracts_count": 60,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 3,
+          "prior_ventures": 3
+        },
+        "advisors": {
+          "relevant": 4,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 1,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c07",
+      "checked_at": "2025-12-31",
+      "facts": {
+        "incorporation_date": "2013-04-01",
+        "licenses": [
+          "ISO",
+          "financial"
+        ],
+        "contracts_count": 61,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 3,
+          "prior_ventures": 3
+        },
+        "advisors": {
+          "relevant": 4,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 1,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c07",
+      "checked_at": "2026-03-31",
+      "facts": {
+        "incorporation_date": "2013-04-01",
+        "licenses": [
+          "ISO",
+          "financial"
+        ],
+        "contracts_count": 61,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 3,
+          "prior_ventures": 3
+        },
+        "advisors": {
+          "relevant": 4,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 1,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c07",
+      "checked_at": "2026-06-30",
+      "facts": {
+        "incorporation_date": "2013-04-01",
+        "licenses": [
+          "ISO",
+          "financial"
+        ],
+        "contracts_count": 63,
+        "founder_experience": {
+          "bio_experiences": 3,
+          "track_records": 3,
+          "prior_ventures": 3
+        },
+        "advisors": {
+          "relevant": 4,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 1,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c08",
+      "checked_at": "2025-03-31",
+      "facts": {
+        "incorporation_date": "2023-06-05",
+        "licenses": [],
+        "contracts_count": 3,
+        "founder_experience": {
+          "bio_experiences": 0,
+          "track_records": 0,
+          "prior_ventures": 0
+        },
+        "advisors": {
+          "relevant": 1,
+          "irrelevant": 4
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 1,
+          "revenue_decline_years": 1,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "unscheduled",
+        "audit": "none",
+        "value_proposition": {
+          "description": "weak",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c08",
+      "checked_at": "2025-06-30",
+      "facts": {
+        "incorporation_date": "2023-06-05",
+        "licenses": [],
+        "contracts_count": 3,
+        "founder_experience": {
+          "bio_experiences": 0,
+          "track_records": 0,
+          "prior_ventures": 0
+        },
+        "advisors": {
+          "relevant": 1,
+          "irrelevant": 4
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 1,
+          "revenue_decline_years": 1,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "unscheduled",
+        "audit": "none",
+        "value_proposition": {
+          "description": "weak",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c08",
+      "checked_at": "2025-09-30",
+      "facts": {
+        "incorporation_date": "2023-06-05",
+        "licenses": [],
+        "contracts_count": 3,
+        "founder_experience": {
+          "bio_experiences": 0,
+          "track_records": 0,
+          "prior_ventures": 0
+        },
+        "advisors": {
+          "relevant": 1,
+          "irrelevant": 4
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 1,
+          "revenue_decline_years": 1,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "unscheduled",
+        "audit": "none",
+        "value_proposition": {
+          "description": "weak",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c08",
+      "checked_at": "2025-12-31",
+      "facts": {
+        "incorporation_date": "2023-06-05",
+        "licenses": [],
+        "contracts_count": 3,
+        "founder_experience": {
+          "bio_experiences": 0,
+          "track_records": 0,
+          "prior_ventures": 0
+        },
+        "advisors": {
+          "relevant": 1,
+          "irrelevant": 4
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 1,
+          "revenue_decline_years": 1,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "unscheduled",
+        "audit": "none",
+        "value_proposition": {
+          "description": "weak",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c08",
+      "checked_at": "2026-03-31",
+      "facts": {
+        "incorporation_date": "2023-06-05",
+        "licenses": [],
+        "contracts_count": 3,
+        "founder_experience": {
+          "bio_experiences": 0,
+          "track_records": 0,
+          "prior_ventures": 0
+        },
+        "advisors": {
+          "relevant": 1,
+          "irrelevant": 4
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 1,
+          "revenue_decline_years": 1,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "unscheduled",
+        "audit": "none",
+        "value_proposition": {
+          "description": "weak",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c08",
+      "checked_at": "2026-06-30",
+      "facts": {
+        "incorporation_date": "2023-06-05",
+        "licenses": [],
+        "contracts_count": 3,
+        "founder_experience": {
+          "bio_experiences": 0,
+          "track_records": 0,
+          "prior_ventures": 0
+        },
+        "advisors": {
+          "relevant": 1,
+          "irrelevant": 5
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 1,
+          "revenue_decline_years": 1,
+          "has_ebitda": false,
+          "ebitda_growth_years": 0,
+          "ebitda_decline_years": 0
+        },
+        "debt": "unscheduled",
+        "audit": "none",
+        "value_proposition": {
+          "description": "weak",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c09",
+      "checked_at": "2025-03-31",
+      "facts": {
+        "incorporation_date": "2022-08-20",
+        "licenses": [],
+        "contracts_count": 5,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 2
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 3
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 1,
+          "revenue_decline_years": 2,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 2
+        },
+        "debt": "unscheduled",
+        "audit": "negative",
+        "value_proposition": {
+          "description": "weak",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c09",
+      "checked_at": "2025-06-30",
+      "facts": {
+        "incorporation_date": "2022-08-20",
+        "licenses": [],
+        "contracts_count": 5,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 2
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 3
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 1,
+          "revenue_decline_years": 2,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 2
+        },
+        "debt": "unscheduled",
+        "audit": "negative",
+        "value_proposition": {
+          "description": "weak",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c09",
+      "checked_at": "2025-09-30",
+      "facts": {
+        "incorporation_date": "2022-08-20",
+        "licenses": [],
+        "contracts_count": 8,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 2
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 3
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 1,
+          "revenue_decline_years": 2,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 2
+        },
+        "debt": "unscheduled",
+        "audit": "negative",
+        "value_proposition": {
+          "description": "weak",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c09",
+      "checked_at": "2025-12-31",
+      "facts": {
+        "incorporation_date": "2022-08-20",
+        "licenses": [
+          "fintech"
+        ],
+        "contracts_count": 11,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 2
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 1,
+          "revenue_decline_years": 2,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 2
+        },
+        "debt": "scheduled",
+        "audit": "negative",
+        "value_proposition": {
+          "description": "weak",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c09",
+      "checked_at": "2026-03-31",
+      "facts": {
+        "incorporation_date": "2022-08-20",
+        "licenses": [
+          "fintech"
+        ],
+        "contracts_count": 13,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 2
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 1,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 2
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c09",
+      "checked_at": "2026-06-30",
+      "facts": {
+        "incorporation_date": "2022-08-20",
+        "licenses": [
+          "fintech"
+        ],
+        "contracts_count": 14,
+        "founder_experience": {
+          "bio_experiences": 1,
+          "track_records": 1,
+          "prior_ventures": 2
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 1
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 1,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 2
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c10",
+      "checked_at": "2025-03-31",
+      "facts": {
+        "incorporation_date": "2021-01-18",
+        "licenses": [
+          "financial"
+        ],
+        "contracts_count": 12,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c10",
+      "checked_at": "2025-06-30",
+      "facts": {
+        "incorporation_date": "2021-01-18",
+        "licenses": [
+          "financial"
+        ],
+        "contracts_count": 20,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 3
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 1
+        },
+        "debt": "unscheduled",
+        "audit": "not_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c10",
+      "checked_at": "2025-09-30",
+      "facts": {
+        "incorporation_date": "2021-01-18",
+        "licenses": [
+          "financial"
+        ],
+        "contracts_count": 11,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c10",
+      "checked_at": "2025-12-31",
+      "facts": {
+        "incorporation_date": "2021-01-18",
+        "licenses": [
+          "financial"
+        ],
+        "contracts_count": 19,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 3
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 1
+        },
+        "debt": "unscheduled",
+        "audit": "not_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c10",
+      "checked_at": "2026-03-31",
+      "facts": {
+        "incorporation_date": "2021-01-18",
+        "licenses": [
+          "financial"
+        ],
+        "contracts_count": 10,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 0
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 1
+        },
+        "debt": "scheduled",
+        "audit": "positive_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c10",
+      "checked_at": "2026-06-30",
+      "facts": {
+        "incorporation_date": "2021-01-18",
+        "licenses": [
+          "financial"
+        ],
+        "contracts_count": 18,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 3,
+          "irrelevant": 3
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 1
+        },
+        "debt": "unscheduled",
+        "audit": "not_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "good",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c11",
+      "checked_at": "2025-03-31",
+      "facts": {
+        "incorporation_date": "2020-09-14",
+        "licenses": [],
+        "contracts_count": 45,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 2
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 0
+        },
+        "debt": "scheduled",
+        "audit": "not_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c11",
+      "checked_at": "2025-06-30",
+      "facts": {
+        "incorporation_date": "2020-09-14",
+        "licenses": [],
+        "contracts_count": 45,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 2
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 0
+        },
+        "debt": "scheduled",
+        "audit": "not_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c11",
+      "checked_at": "2025-09-30",
+      "facts": {
+        "incorporation_date": "2020-09-14",
+        "licenses": [],
+        "contracts_count": 45,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 2
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 0
+        },
+        "debt": "scheduled",
+        "audit": "not_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c11",
+      "checked_at": "2025-12-31",
+      "facts": {
+        "incorporation_date": "2020-09-14",
+        "licenses": [],
+        "contracts_count": 46,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 2
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 0
+        },
+        "debt": "scheduled",
+        "audit": "not_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c11",
+      "checked_at": "2026-03-31",
+      "facts": {
+        "incorporation_date": "2020-09-14",
+        "licenses": [],
+        "contracts_count": 46,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 2
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 0
+        },
+        "debt": "scheduled",
+        "audit": "not_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    },
+    {
+      "entity_id": "c11",
+      "checked_at": "2026-06-30",
+      "facts": {
+        "incorporation_date": "2020-09-14",
+        "licenses": [],
+        "contracts_count": 47,
+        "founder_experience": {
+          "bio_experiences": 2,
+          "track_records": 1,
+          "prior_ventures": 1
+        },
+        "advisors": {
+          "relevant": 2,
+          "irrelevant": 2
+        },
+        "sanctions_hit": false,
+        "financials": {
+          "has_revenue": true,
+          "revenue_growth_years": 2,
+          "revenue_decline_years": 0,
+          "has_ebitda": true,
+          "ebitda_growth_years": 1,
+          "ebitda_decline_years": 0
+        },
+        "debt": "scheduled",
+        "audit": "not_legit",
+        "value_proposition": {
+          "description": "good",
+          "market_analysis": "weak",
+          "value_proposition": "good"
+        }
+      }
+    }
+  ]
+}

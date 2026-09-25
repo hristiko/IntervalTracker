@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "id": "c01",
+      "name": "Northwind Capital",
+      "sector": "Asset management",
+      "country": "Germany",
+      "profile": "Strong and stable",
+      "incorporation_date": "2021-09-01"
+    },
+    {
+      "id": "c02",
+      "name": "Helix Payments",
+      "sector": "Payments",
+      "country": "Netherlands",
+      "profile": "Solid, slightly aging",
+      "incorporation_date": "2019-11-15"
+    },
+    {
+      "id": "c03",
+      "name": "Brightpath Analytics",
+      "sector": "Data analytics",
+      "country": "Ireland",
+      "profile": "Young startup, growing into revenue",
+      "incorporation_date": "2024-11-01"
+    },
+    {
+      "id": "c04",
+      "name": "Orbit Lending",
+      "sector": "Lending",
+      "country": "Spain",
+      "profile": "Good until a sanctions hit (gate test)",
+      "incorporation_date": "2022-05-10"
+    },
+    {
+      "id": "c05",
+      "name": "Verdant Logistics",
+      "sector": "Logistics finance",
+      "country": "Poland",
+      "profile": "Deteriorating",
+      "incorporation_date": "2020-02-20"
+    },
+    {
+      "id": "c06",
+      "name": "Quanta Ledger",
+      "sector": "Blockchain infrastructure",
+      "country": "Estonia",
+      "profile": "Brand new, few observations (cold start)",
+      "incorporation_date": "2026-01-10"
+    },
+    {
+      "id": "c07",
+      "name": "Atlas Trade Finance",
+      "sector": "Trade finance",
+      "country": "Italy",
+      "profile": "Very old, slow growth (age decay test)",
+      "incorporation_date": "2013-04-01"
+    },
+    {
+      "id": "c08",
+      "name": "Pinecrest Ventures",
+      "sector": "Venture holding",
+      "country": "Croatia",
+      "profile": "Weak management, persistent violations",
+      "incorporation_date": "2023-06-05"
+    },
+    {
+      "id": "c09",
+      "name": "Lumen Health Tech",
+      "sector": "Health fintech",
+      "country": "France",
+      "profile": "Recovering",
+      "incorporation_date": "2022-08-20"
+    },
+    {
+      "id": "c10",
+      "name": "Stellar Remit",
+      "sector": "Remittances",
+      "country": "Portugal",
+      "profile": "Volatile, flips in and out of intervals",
+      "incorporation_date": "2021-01-18"
+    },
+    {
+      "id": "c11",
+      "name": "Ironbridge Holdings",
+      "sector": "Holding company",
+      "country": "Austria",
+      "profile": "Mediocre but stable",
+      "incorporation_date": "2020-09-14"
+    }
+  ]
+}

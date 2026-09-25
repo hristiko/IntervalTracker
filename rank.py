@@ -1,19 +1,3 @@
-"""
-Rank
-====
-Takes the scoring history (one record per entity per check date) and
-produces a best-to-worst leaderboard: the "Main Dashboard" data.
-
-Sorting is by EWMA score, descending. Ties are broken by more evidence
-(observation count) first, then fewer recent violations, then entity ID,
-so the order is always deterministic.
-
-Trend is an approximation for the prototype: it compares each entity's
-current rank to the rank it would have had using its own second-to-last
-observation, rather than a calendar-aligned snapshot (entities are not
-all checked on the same dates). This is documented so it can be replaced
-with a calendar-aligned version once real check dates are regular.
-"""
 from __future__ import annotations
 
 from typing import Optional
@@ -34,12 +18,6 @@ def build_leaderboard(
     entity_names: dict[str, str],
     recent_window: int = 4,
 ) -> dict:
-    """
-    history: {entity_id: [records...]}, each record having at least
-             checked_at, ewma_score, status (Compliant/Violated), sorted
-             by checked_at ascending. This is scores_history.json's
-             "entities" field.
-    """
     current_scores = {eid: records[-1]["ewma_score"] for eid, records in history.items() if records}
     previous_scores = {
         eid: records[-2]["ewma_score"] for eid, records in history.items() if len(records) >= 2

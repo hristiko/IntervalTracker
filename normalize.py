@@ -1,22 +1,3 @@
-"""
-Normalize
-=========
-Turns one parameter's raw facts into a score in [0, 1], using the rule_spec
-that Parser and config attached to that parameter.
-
-It does NOT decide compliance and does NOT know about weights or history.
-Given the same facts and the same rule_spec, it always returns the same
-number (see the "Interval check" note in the docs for why this must be
-true: the system compares each score to a fixed interval, not to other
-entities).
-
-Four rule types are supported, matching the four shapes found in the
-source document (see config/rule_specs.json):
-    banded_then_decay  - date of incorporation
-    base_plus_terms    - most "start at X%, add/subtract per item" rules
-    categorical        - a fixed lookup table, optionally conditional
-    boolean_map        - pass/fail (used for the sanctions gate)
-"""
 from __future__ import annotations
 
 from datetime import date
@@ -27,9 +8,6 @@ class NormalizationError(Exception):
     """Raised when facts cannot be normalized with the given rule_spec."""
 
 
-# --------------------------------------------------------------------------
-# Small helpers
-# --------------------------------------------------------------------------
 def get_fact(facts: dict, path: str) -> Any:
     """Read a dot-notation fact, e.g. 'financials.has_revenue'. Missing -> None."""
     current: Any = facts
@@ -41,11 +19,6 @@ def get_fact(facts: dict, path: str) -> Any:
 
 
 def months_between(from_date: str, to_date: str) -> int:
-    """
-    Whole completed months between two YYYY-MM-DD dates.
-    E.g. 2022-03-15 to 2022-06-14 is 2 completed months (not 3),
-    because the 15th hasn't been reached yet in June.
-    """
     start, end = date.fromisoformat(from_date), date.fromisoformat(to_date)
     months = (end.year - start.year) * 12 + (end.month - start.month)
     if end.day < start.day:
@@ -76,9 +49,6 @@ def _lookup(name: str, facts: dict, derived: dict[str, Any]) -> Any:
     return derived[name] if name in derived else get_fact(facts, name)
 
 
-# --------------------------------------------------------------------------
-# The four rule types
-# --------------------------------------------------------------------------
 def normalize_banded_then_decay(rule_spec: dict, facts: dict, checked_at: str) -> float:
     derived = _derived_inputs(rule_spec, facts, checked_at)
     x = _lookup(rule_spec["on"], facts, derived)

@@ -82,15 +82,11 @@ def group_observations(validated_path: Path | str) -> dict[str, list[dict]]:
     return dict(grouped)
 
 
-# --------------------------------------------------------------------------
-# Core loop
-# --------------------------------------------------------------------------
 def score_entity(
     config: dict,
     observations: list[dict],
     settings: ScoringSettings,
 ) -> list[dict]:
-    """Run one entity's observations, oldest first, through the pipeline."""
     weights = {p["id"]: p["weight"] for p in config["parameters"]}
     state = EntityScoringState()
     records: list[dict] = []

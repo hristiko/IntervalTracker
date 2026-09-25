@@ -1,0 +1,411 @@
+{
+  "config_version": "70b4d4505e00",
+  "generated_at": "2026-09-25T11:42:07+00:00",
+  "source": {
+    "file": "Due_Dilligence_Weighed_Parameters.xlsx",
+    "sha256": "297b4e280d0107841b31c8803a30a47fbe87017cf50d1d3f2bc6529e8041f31d",
+    "sheet": "List1",
+    "note": "Weigh and Rule can be customized by a broker or bank in the beginning. Later AI will do the math."
+  },
+  "total_weight": 72,
+  "parameters": [
+    {
+      "id": "p01",
+      "parameter": "Date of incorporation",
+      "field": "Corporate & Legal Structure",
+      "context": "The best maturity of a company is reached within 3 to 5 years. Younger companies have less trust due to not so many experience, while older companies have less trust due to too slow growth.",
+      "rule": "Less than 12 months 70%, 12-24 months 80%, 24-36 months 90%, 36-60 months 100%, then each year 10% less",
+      "weight": 6,
+      "rule_spec": {
+        "type": "banded_then_decay",
+        "required_facts": [
+          "incorporation_date"
+        ],
+        "derived_inputs": {
+          "age_months": {
+            "op": "months_between",
+            "from": "incorporation_date",
+            "to": "checked_at"
+          }
+        },
+        "on": "age_months",
+        "bands": [
+          [
+            0,
+            12,
+            0.7
+          ],
+          [
+            12,
+            24,
+            0.8
+          ],
+          [
+            24,
+            36,
+            0.9
+          ],
+          [
+            36,
+            60,
+            1.0
+          ]
+        ],
+        "after": {
+          "start_at": 60,
+          "base": 1.0,
+          "step_size": 12,
+          "per_step": -0.1,
+          "floor": 0.0
+        },
+        "assumption": "Bands are [from, to) in months. From 60 months on, every started year (12 months) lowers the score by 0.10: 60-71 months = 0.90, 72-83 = 0.80, and so on, never below the floor."
+      },
+      "interval": {
+        "lower": 0.9,
+        "upper": 1
+      }
+    },
+    {
+      "id": "p02",
+      "parameter": "Licenses and regulatory registrations",
+      "field": "Corporate & Legal Structure",
+      "context": "It is not very unsusual that companies raise funds to receive the licensing, yet of course the more official standardization is already reched, the more trust there is.",
+      "rule": "None = 50%, ISO license adds 20%, FInancial license adds 20%, fintech (or any other) license adds 10%",
+      "weight": 8,
+      "rule_spec": {
+        "type": "base_plus_terms",
+        "required_facts": [
+          "licenses"
+        ],
+        "base": 0.5,
+        "terms": [
+          {
+            "fact": "licenses",
+            "contains": "ISO",
+            "add": 0.2
+          },
+          {
+            "fact": "licenses",
+            "contains": "financial",
+            "add": 0.2
+          },
+          {
+            "fact": "licenses",
+            "contains": "fintech",
+            "add": 0.1
+          },
+          {
+            "fact": "licenses",
+            "contains": "other",
+            "add": 0.1
+          }
+        ],
+        "clip": [
+          0,
+          1
+        ],
+        "assumption": "'fintech (or any other)' is split into 'fintech' and 'other', each adding 0.10. Each license type counts once."
+      },
+      "interval": {
+        "lower": 0.7,
+        "upper": 1
+      }
+    },
+    {
+      "id": "p03",
+      "parameter": "Material Contracts",
+      "field": "Corporate & Legal Structure",
+      "context": "It is nothing wrong if there are no material contracts, which means the company has not yet reached the market. Yet, the more contracts exist the more value they bring.",
+      "rule": "None = 50%, each contract adds 0,5%",
+      "weight": 5,
+      "rule_spec": {
+        "type": "base_plus_terms",
+        "required_facts": [
+          "contracts_count"
+        ],
+        "base": 0.5,
+        "terms": [
+          {
+            "fact": "contracts_count",
+            "per_unit": 0.005
+          }
+        ],
+        "clip": [
+          0,
+          1
+        ],
+        "assumption": "'0,5%' is read as 0.5 percentage points (0.005) per contract, so 100 contracts are needed to reach 1.0. Confirm with the document owner."
+      },
+      "interval": {
+        "lower": 0.55,
+        "upper": 1
+      }
+    },
+    {
+      "id": "p04",
+      "parameter": "Founder and executive biographies, track record, prior ventures",
+      "field": "Management & Team",
+      "context": "Unexperienced (no track record, no prior ventures) is a very bad sign. Thus, it is also very important parameter.",
+      "rule": "None = 0%, each item adds in this way:\n- each relevant biographical experience adds 10%\n- each relevant track record adds 20%,\n- each prior venture adds 30%",
+      "weight": 9,
+      "rule_spec": {
+        "type": "base_plus_terms",
+        "required_facts": [
+          "founder_experience.bio_experiences",
+          "founder_experience.track_records",
+          "founder_experience.prior_ventures"
+        ],
+        "base": 0.0,
+        "terms": [
+          {
+            "fact": "founder_experience.bio_experiences",
+            "per_unit": 0.1
+          },
+          {
+            "fact": "founder_experience.track_records",
+            "per_unit": 0.2
+          },
+          {
+            "fact": "founder_experience.prior_ventures",
+            "per_unit": 0.3
+          }
+        ],
+        "clip": [
+          0,
+          1
+        ]
+      },
+      "interval": {
+        "lower": 0.5,
+        "upper": 1
+      }
+    },
+    {
+      "id": "p05",
+      "parameter": "Advisory board and board of directors composition",
+      "field": "Management & Team",
+      "context": "The more relevant advisors, the better. Yet the more irrelevant advisors, worser the score.",
+      "rule": "None = 50%, each relevant advisor = +10%, each irrelevant advisor is -5%",
+      "weight": 7,
+      "rule_spec": {
+        "type": "base_plus_terms",
+        "required_facts": [
+          "advisors.relevant",
+          "advisors.irrelevant"
+        ],
+        "base": 0.5,
+        "terms": [
+          {
+            "fact": "advisors.relevant",
+            "per_unit": 0.1
+          },
+          {
+            "fact": "advisors.irrelevant",
+            "per_unit": -0.05
+          }
+        ],
+        "clip": [
+          0,
+          1
+        ]
+      },
+      "interval": {
+        "lower": 0.6,
+        "upper": 1
+      }
+    },
+    {
+      "id": "p06",
+      "parameter": "Background/criminal checks and sanctions screening (PEP, OFAC, EU lists)",
+      "field": "Management & Team",
+      "context": "This is critical - if there is an AML sanction or criminal background the due illigence fails. Yet, if there are none the waight is very low.",
+      "rule": "None = 100%, one or more is automatically 0%",
+      "weight": 1,
+      "rule_spec": {
+        "type": "boolean_map",
+        "required_facts": [
+          "sanctions_hit"
+        ],
+        "fact": "sanctions_hit",
+        "if_true": 0.0,
+        "if_false": 1.0,
+        "gate": true,
+        "assumption": "gate=true: a hit is a knockout that fails the whole due diligence, not just a weighted low score."
+      },
+      "interval": {
+        "lower": 1,
+        "upper": 1
+      }
+    },
+    {
+      "id": "p07",
+      "parameter": "Revenu Trend",
+      "field": "Financial Parameters (Prospectus-Level)",
+      "context": "Best is constantly growing revenu for 3 to 5 years (connected with \"Date of Incorporation\"). Can be also no revenue yet. And also decreasing revenue - worse case.",
+      "rule": "No revenue = 50%. Each growing revenue year adds 10%. Each decreasing revenue year adds -20%.",
+      "weight": 6,
+      "rule_spec": {
+        "type": "base_plus_terms",
+        "required_facts": [
+          "financials.has_revenue",
+          "financials.revenue_growth_years",
+          "financials.revenue_decline_years"
+        ],
+        "base": 0.5,
+        "terms": [
+          {
+            "fact": "financials.revenue_growth_years",
+            "per_unit": 0.1
+          },
+          {
+            "fact": "financials.revenue_decline_years",
+            "per_unit": -0.2
+          }
+        ],
+        "clip": [
+          0,
+          1
+        ],
+        "assumption": "The 0.50 base applies whether or not revenue exists; growing and declining years are then added on top."
+      },
+      "interval": {
+        "lower": 0.5,
+        "upper": 1
+      }
+    },
+    {
+      "id": "p08",
+      "parameter": "EBITDA Trenda",
+      "field": "Financial Parameters (Prospectus-Level)",
+      "context": "Best is constantly growing EBITDA for 3 to 5 years (connected with \"Date of Incorporation\"). Can be also no revenue yet. And also decreasing EBITDA - worse case.",
+      "rule": "No EBITDA = 50%. Each growing EBITDA year adds 10%. Each decreasing EBITDA year adds -20%.",
+      "weight": 7,
+      "rule_spec": {
+        "type": "base_plus_terms",
+        "required_facts": [
+          "financials.has_ebitda",
+          "financials.ebitda_growth_years",
+          "financials.ebitda_decline_years"
+        ],
+        "base": 0.5,
+        "terms": [
+          {
+            "fact": "financials.ebitda_growth_years",
+            "per_unit": 0.1
+          },
+          {
+            "fact": "financials.ebitda_decline_years",
+            "per_unit": -0.2
+          }
+        ],
+        "clip": [
+          0,
+          1
+        ],
+        "assumption": "Same reading as revenue trend."
+      },
+      "interval": {
+        "lower": 0.5,
+        "upper": 1
+      }
+    },
+    {
+      "id": "p09",
+      "parameter": "Debt Structure",
+      "field": "Financial Parameters (Prospectus-Level)",
+      "context": "If there is debt that has a firm maturity schedule and company is able to return the loan, then all is OK. But better is if there is no loan.",
+      "rule": "No debt = 100%. Debt with good maturity schedule = 50%. Debt without a proper schedule = 20%.",
+      "weight": 8,
+      "rule_spec": {
+        "type": "categorical",
+        "required_facts": [
+          "debt"
+        ],
+        "fact": "debt",
+        "map": {
+          "none": 1.0,
+          "scheduled": 0.5,
+          "unscheduled": 0.2
+        }
+      },
+      "interval": {
+        "lower": 0.5,
+        "upper": 1
+      }
+    },
+    {
+      "id": "p10",
+      "parameter": "Auditor identity, audit opinion, and any qualifications",
+      "field": "Financial Parameters (Prospectus-Level)",
+      "context": "If there is a legit auditor with positive audit opinion, then this is best case scenario. Company without an audit is also OK if there is no revenue yet.",
+      "rule": "Audit positive and legit auditor = 100%. not legit auditor = 80%. Negative audit = 30%. No audit yet (while no revenue) = 70%. No audit while revenue = 40%.",
+      "weight": 8,
+      "rule_spec": {
+        "type": "categorical",
+        "required_facts": [
+          "audit",
+          "financials.has_revenue"
+        ],
+        "fact": "audit",
+        "map": {
+          "positive_legit": 1.0,
+          "not_legit": 0.8,
+          "negative": 0.3,
+          "none": {
+            "when": "financials.has_revenue",
+            "if_true": 0.4,
+            "if_false": 0.7
+          }
+        }
+      },
+      "interval": {
+        "lower": 0.7,
+        "upper": 1
+      }
+    },
+    {
+      "id": "p11",
+      "parameter": "Products/services description and value proposition",
+      "field": "Business Model & Market",
+      "context": "Good description with great analysis of the market clearly showing great value proposition is best case. Bad description or bad analysis or bad value proposition lowers the evaluation on this level.",
+      "rule": "good descr. and great analysis and clear value proposition = 100%. Bad descr. or bad analysis or low value proposition decreases for 20%.",
+      "weight": 7,
+      "rule_spec": {
+        "type": "base_plus_terms",
+        "required_facts": [
+          "value_proposition.description",
+          "value_proposition.market_analysis",
+          "value_proposition.value_proposition"
+        ],
+        "base": 1.0,
+        "terms": [
+          {
+            "fact": "value_proposition.description",
+            "equals": "weak",
+            "add": -0.2
+          },
+          {
+            "fact": "value_proposition.market_analysis",
+            "equals": "weak",
+            "add": -0.2
+          },
+          {
+            "fact": "value_proposition.value_proposition",
+            "equals": "weak",
+            "add": -0.2
+          }
+        ],
+        "clip": [
+          0,
+          1
+        ],
+        "assumption": "Each weak point lowers the score by 0.20 (three weak points = 0.40). If the document means a single 0.20 cut regardless of count, change this rule."
+      },
+      "interval": {
+        "lower": 0.8,
+        "upper": 1
+      }
+    }
+  ],
+  "complete": true
+}

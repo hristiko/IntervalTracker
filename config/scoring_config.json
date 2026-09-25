@@ -1,0 +1,8 @@
+{
+  "gamma": 0.9,
+  "credible_level": 0.10,
+  "lambda_ewma": 0.3,
+  "prior_alpha": 2.0,
+  "prior_beta": 2.0,
+  "recent_violations_window": 4
+}

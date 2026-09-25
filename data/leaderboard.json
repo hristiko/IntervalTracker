@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-09-25T11:42:35+00:00",
+  "config_version": "70b4d4505e00",
+  "count": 11,
+  "compliant_count": 1,
+  "ranking": [
+    {
+      "entity_id": "c01",
+      "name": "Northwind Capital",
+      "score": 0.5438647523402398,
+      "status": "Compliant",
+      "as_of": "2026-06-30",
+      "trend": 0,
+      "observations": 6,
+      "recent_violations": 0,
+      "rank": 1
+    },
+    {
+      "entity_id": "c11",
+      "name": "Ironbridge Holdings",
+      "score": 0.48931854940097763,
+      "status": "Violated",
+      "as_of": "2026-06-30",
+      "trend": 0,
+      "observations": 6,
+      "recent_violations": 4,
+      "rank": 2
+    },
+    {
+      "entity_id": "c02",
+      "name": "Helix Payments",
+      "score": 0.4766666789624142,
+      "status": "Violated",
+      "as_of": "2026-06-30",
+      "trend": 0,
+      "observations": 6,
+      "recent_violations": 4,
+      "rank": 3
+    },
+    {
+      "entity_id": "c10",
+      "name": "Stellar Remit",
+      "score": 0.4664028320510031,
+      "status": "Violated",
+      "as_of": "2026-06-30",
+      "trend": 0,
+      "observations": 6,
+      "recent_violations": 4,
+      "rank": 4
+    },
+    {
+      "entity_id": "c05",
+      "name": "Verdant Logistics",
+      "score": 0.4325037587150684,
+      "status": "Violated",
+      "as_of": "2026-06-30",
+      "trend": 0,
+      "observations": 6,
+      "recent_violations": 4,
+      "rank": 5
+    },
+    {
+      "entity_id": "c07",
+      "name": "Atlas Trade Finance",
+      "score": 0.4143175203594922,
+      "status": "Violated",
+      "as_of": "2026-06-30",
+      "trend": 0,
+      "observations": 6,
+      "recent_violations": 4,
+      "rank": 6
+    },
+    {
+      "entity_id": "c03",
+      "name": "Brightpath Analytics",
+      "score": 0.3425755233034687,
+      "status": "Violated",
+      "as_of": "2026-06-30",
+      "trend": 0,
+      "observations": 6,
+      "recent_violations": 4,
+      "rank": 7
+    },
+    {
+      "entity_id": "c06",
+      "name": "Quanta Ledger",
+      "score": 0.28643513515247715,
+      "status": "Violated",
+      "as_of": "2026-06-30",
+      "trend": 0,
+      "observations": 2,
+      "recent_violations": 2,
+      "rank": 8
+    },
+    {
+      "entity_id": "c09",
+      "name": "Lumen Health Tech",
+      "score": 0.2584611666617724,
+      "status": "Violated",
+      "as_of": "2026-06-30",
+      "trend": 0,
+      "observations": 6,
+      "recent_violations": 4,
+      "rank": 9
+    },
+    {
+      "entity_id": "c08",
+      "name": "Pinecrest Ventures",
+      "score": 0.13613084070002385,
+      "status": "Violated",
+      "as_of": "2026-06-30",
+      "trend": 0,
+      "observations": 6,
+      "recent_violations": 4,
+      "rank": 10
+    },
+    {
+      "entity_id": "c04",
+      "name": "Orbit Lending",
+      "score": 0.0,
+      "status": "Violated",
+      "as_of": "2026-06-30",
+      "trend": 0,
+      "observations": 6,
+      "recent_violations": 2,
+      "rank": 11
+    }
+  ]
+}

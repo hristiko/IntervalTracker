@@ -1,0 +1,5491 @@
+{
+  "generated_at": "2026-09-25T11:42:35+00:00",
+  "config_version": "70b4d4505e00",
+  "settings": {
+    "gamma": 0.9,
+    "credible_level": 0.1,
+    "lambda_ewma": 0.3,
+    "prior_alpha": 2.0,
+    "prior_beta": 2.0
+  },
+  "entities": {
+    "c01": [
+      {
+        "checked_at": "2025-03-31",
+        "status": "Compliant",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.9999999999999999,
+          "p03": 0.67,
+          "p04": 1,
+          "p05": 1,
+          "p06": 1.0,
+          "p07": 0.8,
+          "p08": 0.8,
+          "p09": 1.0,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          }
+        },
+        "raw_score": 0.3181121080005911,
+        "ewma_score": 0.3181121080005911,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-06-30",
+        "status": "Compliant",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.9999999999999999,
+          "p03": 0.6799999999999999,
+          "p04": 1,
+          "p05": 1,
+          "p06": 1.0,
+          "p07": 0.8,
+          "p08": 0.8,
+          "p09": 1.0,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          }
+        },
+        "raw_score": 0.417214602078391,
+        "ewma_score": 0.347842856223931,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-09-30",
+        "status": "Compliant",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.9999999999999999,
+          "p03": 0.69,
+          "p04": 1,
+          "p05": 1,
+          "p06": 1.0,
+          "p07": 0.8,
+          "p08": 0.8,
+          "p09": 1.0,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          }
+        },
+        "raw_score": 0.4968038849833797,
+        "ewma_score": 0.3925311648517656,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-12-31",
+        "status": "Compliant",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.9999999999999999,
+          "p03": 0.7,
+          "p04": 1,
+          "p05": 1,
+          "p06": 1.0,
+          "p07": 0.9,
+          "p08": 0.9,
+          "p09": 1.0,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          }
+        },
+        "raw_score": 0.5613767605639525,
+        "ewma_score": 0.44318484356542165,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-03-31",
+        "status": "Compliant",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.9999999999999999,
+          "p03": 0.71,
+          "p04": 1,
+          "p05": 1,
+          "p06": 1.0,
+          "p07": 0.9,
+          "p08": 0.9,
+          "p09": 1.0,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          }
+        },
+        "raw_score": 0.6145113810284798,
+        "ewma_score": 0.494582804804339,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-06-30",
+        "status": "Compliant",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.9999999999999999,
+          "p03": 0.72,
+          "p04": 1,
+          "p05": 1,
+          "p06": 1.0,
+          "p07": 0.9,
+          "p08": 0.9,
+          "p09": 1.0,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          }
+        },
+        "raw_score": 0.6588559632573416,
+        "ewma_score": 0.5438647523402398,
+        "gated": false
+      }
+    ],
+    "c02": [
+      {
+        "checked_at": "2025-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.7999999999999999,
+          "p03": 0.61,
+          "p04": 0.7,
+          "p05": 0.75,
+          "p06": 1.0,
+          "p07": 0.8,
+          "p08": 0.49999999999999994,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          }
+        },
+        "raw_score": 0.2995608270229857,
+        "ewma_score": 0.2995608270229857,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.7999999999999999,
+          "p03": 0.61,
+          "p04": 0.7,
+          "p05": 0.75,
+          "p06": 1.0,
+          "p07": 0.8,
+          "p08": 0.49999999999999994,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          }
+        },
+        "raw_score": 0.38508793356996546,
+        "ewma_score": 0.3252189589870796,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-09-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.7999999999999999,
+          "p03": 0.625,
+          "p04": 0.7,
+          "p05": 0.75,
+          "p06": 1.0,
+          "p07": 0.8,
+          "p08": 0.49999999999999994,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          }
+        },
+        "raw_score": 0.4543943861418707,
+        "ewma_score": 0.3639715871335169,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-12-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.8,
+          "p02": 0.7999999999999999,
+          "p03": 0.635,
+          "p04": 0.7,
+          "p05": 0.75,
+          "p06": 1.0,
+          "p07": 0.9,
+          "p08": 0.49999999999999994,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 3.7512000000000003,
+            "beta": 2.3122000000000003,
+            "conservative_score": 0.3648250288970002
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          }
+        },
+        "raw_score": 0.4945795252408554,
+        "ewma_score": 0.40315396856571845,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.8,
+          "p02": 0.7999999999999999,
+          "p03": 0.635,
+          "p04": 0.7,
+          "p05": 0.75,
+          "p06": 1.0,
+          "p07": 0.9,
+          "p08": 0.49999999999999994,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 3.3760800000000004,
+            "beta": 3.0809800000000003,
+            "conservative_score": 0.2764249327716226
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          }
+        },
+        "raw_score": 0.5295396108627313,
+        "ewma_score": 0.4410696612548223,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.8,
+          "p02": 0.7999999999999999,
+          "p03": 0.64,
+          "p04": 0.7,
+          "p05": 0.75,
+          "p06": 1.0,
+          "p07": 0.9,
+          "p08": 0.49999999999999994,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 3.0384720000000005,
+            "beta": 3.7728820000000005,
+            "conservative_score": 0.21302099331509897
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          }
+        },
+        "raw_score": 0.5597263869467954,
+        "ewma_score": 0.4766666789624142,
+        "gated": false
+      }
+    ],
+    "c03": [
+      {
+        "checked_at": "2025-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.7,
+          "p02": 0.5,
+          "p03": 0.51,
+          "p04": 0.30000000000000004,
+          "p05": 0.7,
+          "p06": 1.0,
+          "p07": 0.5,
+          "p08": 0.5,
+          "p09": 1.0,
+          "p10": 0.7,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p04": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          }
+        },
+        "raw_score": 0.2439069840901695,
+        "ewma_score": 0.2439069840901695,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.7,
+          "p02": 0.5,
+          "p03": 0.51,
+          "p04": 0.30000000000000004,
+          "p05": 0.7,
+          "p06": 1.0,
+          "p07": 0.5,
+          "p08": 0.5,
+          "p09": 1.0,
+          "p10": 0.7,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p04": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          }
+        },
+        "raw_score": 0.28870792804468876,
+        "ewma_score": 0.25734726727652524,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-09-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.7,
+          "p02": 0.5,
+          "p03": 0.52,
+          "p04": 0.30000000000000004,
+          "p05": 0.7,
+          "p06": 1.0,
+          "p07": 0.5,
+          "p08": 0.5,
+          "p09": 1.0,
+          "p10": 0.7,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p04": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          }
+        },
+        "raw_score": 0.32716588961734366,
+        "ewma_score": 0.27829285397877074,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-12-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.8,
+          "p02": 0.5,
+          "p03": 0.53,
+          "p04": 0.30000000000000004,
+          "p05": 0.7,
+          "p06": 1.0,
+          "p07": 0.5,
+          "p08": 0.5,
+          "p09": 1.0,
+          "p10": 0.7,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p04": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          }
+        },
+        "raw_score": 0.3597050631605485,
+        "ewma_score": 0.3027165167333041,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.8,
+          "p02": 0.6,
+          "p03": 0.545,
+          "p04": 0.30000000000000004,
+          "p05": 0.7,
+          "p06": 1.0,
+          "p07": 0.6,
+          "p08": 0.5,
+          "p09": 1.0,
+          "p10": 0.4,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p04": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p10": {
+            "compliant": false,
+            "alpha": 4.276080000000001,
+            "beta": 2.1809800000000004,
+            "conservative_score": 0.4200468423622643
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          }
+        },
+        "raw_score": 0.3657126121548587,
+        "ewma_score": 0.32161534535977043,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.8,
+          "p02": 0.6,
+          "p03": 0.545,
+          "p04": 0.30000000000000004,
+          "p05": 0.7,
+          "p06": 1.0,
+          "p07": 0.6,
+          "p08": 0.5,
+          "p09": 1.0,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p04": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.848472000000001,
+            "beta": 1.9628820000000005,
+            "conservative_score": 0.4836555778430854
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          }
+        },
+        "raw_score": 0.3914826051720981,
+        "ewma_score": 0.3425755233034687,
+        "gated": false
+      }
+    ],
+    "c04": [
+      {
+        "checked_at": "2025-03-31",
+        "status": "Compliant",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.8999999999999999,
+          "p03": 0.575,
+          "p04": 0.9000000000000001,
+          "p05": 0.8,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.7,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          }
+        },
+        "raw_score": 0.3181121080005911,
+        "ewma_score": 0.3181121080005911,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-06-30",
+        "status": "Compliant",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.8999999999999999,
+          "p03": 0.575,
+          "p04": 0.9000000000000001,
+          "p05": 0.8,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.7,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          }
+        },
+        "raw_score": 0.417214602078391,
+        "ewma_score": 0.347842856223931,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-09-30",
+        "status": "Compliant",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.8999999999999999,
+          "p03": 0.585,
+          "p04": 0.9000000000000001,
+          "p05": 0.8,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.7,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          }
+        },
+        "raw_score": 0.4968038849833797,
+        "ewma_score": 0.3925311648517656,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-12-31",
+        "status": "Compliant",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.8999999999999999,
+          "p03": 0.59,
+          "p04": 0.9000000000000001,
+          "p05": 0.8,
+          "p06": 1.0,
+          "p07": 0.8,
+          "p08": 0.7,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          }
+        },
+        "raw_score": 0.5613767605639525,
+        "ewma_score": 0.44318484356542165,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.8999999999999999,
+          "p03": 0.59,
+          "p04": 0.9000000000000001,
+          "p05": 0.8,
+          "p06": 0.0,
+          "p07": 0.8,
+          "p08": 0.7,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p06": {
+            "compliant": false,
+            "alpha": 4.276080000000001,
+            "beta": 2.1809800000000004,
+            "conservative_score": 0.4200468423622643
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          }
+        },
+        "raw_score": 0.0,
+        "ewma_score": 0.0,
+        "gated": true
+      },
+      {
+        "checked_at": "2026-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.8999999999999999,
+          "p03": 0.59,
+          "p04": 0.9000000000000001,
+          "p05": 0.8,
+          "p06": 0.0,
+          "p07": 0.8,
+          "p08": 0.7,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p06": {
+            "compliant": false,
+            "alpha": 3.848472000000001,
+            "beta": 2.9628820000000005,
+            "conservative_score": 0.3236015174340749
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          }
+        },
+        "raw_score": 0.0,
+        "ewma_score": 0.0,
+        "gated": true
+      }
+    ],
+    "c05": [
+      {
+        "checked_at": "2025-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.7,
+          "p03": 0.65,
+          "p04": 0.6000000000000001,
+          "p05": 0.6,
+          "p06": 1.0,
+          "p07": 0.8,
+          "p08": 0.49999999999999994,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          }
+        },
+        "raw_score": 0.2995608270229857,
+        "ewma_score": 0.2995608270229857,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.7,
+          "p03": 0.655,
+          "p04": 0.6000000000000001,
+          "p05": 0.6,
+          "p06": 1.0,
+          "p07": 0.8,
+          "p08": 0.49999999999999994,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          }
+        },
+        "raw_score": 0.38508793356996546,
+        "ewma_score": 0.3252189589870796,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-09-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.7,
+          "p03": 0.645,
+          "p04": 0.6000000000000001,
+          "p05": 0.6,
+          "p06": 1.0,
+          "p07": 0.8,
+          "p08": 0.49999999999999994,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          }
+        },
+        "raw_score": 0.4543943861418707,
+        "ewma_score": 0.3639715871335169,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-12-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.7,
+          "p03": 0.63,
+          "p04": 0.6000000000000001,
+          "p05": 0.6,
+          "p06": 1.0,
+          "p07": 0.49999999999999994,
+          "p08": 0.19999999999999996,
+          "p09": 0.2,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 3.7512000000000003,
+            "beta": 2.3122000000000003,
+            "conservative_score": 0.3648250288970002
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 3.7512000000000003,
+            "beta": 2.3122000000000003,
+            "conservative_score": 0.3648250288970002
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          }
+        },
+        "raw_score": 0.4727404439445274,
+        "ewma_score": 0.39660224417682,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.8,
+          "p02": 0.7,
+          "p03": 0.62,
+          "p04": 0.6000000000000001,
+          "p05": 0.6,
+          "p06": 1.0,
+          "p07": 0.49999999999999994,
+          "p08": 0.19999999999999996,
+          "p09": 0.2,
+          "p10": 1.0,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 4.276080000000001,
+            "beta": 2.1809800000000004,
+            "conservative_score": 0.4200468423622643
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 3.3760800000000004,
+            "beta": 3.0809800000000003,
+            "conservative_score": 0.2764249327716226
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 3.3760800000000004,
+            "beta": 3.0809800000000003,
+            "conservative_score": 0.2764249327716226
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          }
+        },
+        "raw_score": 0.47576907172311805,
+        "ewma_score": 0.4203522924407094,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.8,
+          "p02": 0.7,
+          "p03": 0.61,
+          "p04": 0.6000000000000001,
+          "p05": 0.6,
+          "p06": 1.0,
+          "p07": 0.49999999999999994,
+          "p08": 0.19999999999999996,
+          "p09": 0.2,
+          "p10": 0.3,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 3.848472000000001,
+            "beta": 2.9628820000000005,
+            "conservative_score": 0.3236015174340749
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 3.0384720000000005,
+            "beta": 3.7728820000000005,
+            "conservative_score": 0.21302099331509897
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 3.0384720000000005,
+            "beta": 3.7728820000000005,
+            "conservative_score": 0.21302099331509897
+          },
+          "p10": {
+            "compliant": false,
+            "alpha": 4.748472000000001,
+            "beta": 2.062882,
+            "conservative_score": 0.466308905243032
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          }
+        },
+        "raw_score": 0.4608571800219063,
+        "ewma_score": 0.4325037587150684,
+        "gated": false
+      }
+    ],
+    "c06": [
+      {
+        "checked_at": "2026-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.7,
+          "p02": 0.5,
+          "p03": 0.5,
+          "p04": 1,
+          "p05": 0.8,
+          "p06": 1.0,
+          "p07": 0.5,
+          "p08": 0.5,
+          "p09": 1.0,
+          "p10": 0.7,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          }
+        },
+        "raw_score": 0.2677586310613765,
+        "ewma_score": 0.2677586310613765,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.7,
+          "p02": 0.5,
+          "p03": 0.505,
+          "p04": 1,
+          "p05": 0.8,
+          "p06": 1.0,
+          "p07": 0.5,
+          "p08": 0.5,
+          "p09": 1.0,
+          "p10": 0.7,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          }
+        },
+        "raw_score": 0.3300136446983788,
+        "ewma_score": 0.28643513515247715,
+        "gated": false
+      }
+    ],
+    "c07": [
+      {
+        "checked_at": "2025-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.29999999999999993,
+          "p02": 0.8999999999999999,
+          "p03": 0.8,
+          "p04": 1,
+          "p05": 0.85,
+          "p06": 1.0,
+          "p07": 0.49999999999999994,
+          "p08": 0.39999999999999997,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          }
+        },
+        "raw_score": 0.2677586310613765,
+        "ewma_score": 0.2677586310613765,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.19999999999999996,
+          "p02": 0.8999999999999999,
+          "p03": 0.8,
+          "p04": 1,
+          "p05": 0.85,
+          "p06": 1.0,
+          "p07": 0.49999999999999994,
+          "p08": 0.39999999999999997,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          }
+        },
+        "raw_score": 0.33001364469837874,
+        "ewma_score": 0.28643513515247715,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-09-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.19999999999999996,
+          "p02": 0.8999999999999999,
+          "p03": 0.8,
+          "p04": 1,
+          "p05": 0.85,
+          "p06": 1.0,
+          "p07": 0.49999999999999994,
+          "p08": 0.39999999999999997,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          }
+        },
+        "raw_score": 0.3816923881278552,
+        "ewma_score": 0.31501231104509053,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-12-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.19999999999999996,
+          "p02": 0.8999999999999999,
+          "p03": 0.8049999999999999,
+          "p04": 1,
+          "p05": 0.85,
+          "p06": 1.0,
+          "p07": 0.49999999999999994,
+          "p08": 0.39999999999999997,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          }
+        },
+        "raw_score": 0.4245281087544998,
+        "ewma_score": 0.3478670503579133,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.19999999999999996,
+          "p02": 0.8999999999999999,
+          "p03": 0.8049999999999999,
+          "p04": 1,
+          "p05": 0.85,
+          "p06": 1.0,
+          "p07": 0.49999999999999994,
+          "p08": 0.39999999999999997,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          }
+        },
+        "raw_score": 0.4603456538747849,
+        "ewma_score": 0.3816106314129748,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.09999999999999998,
+          "p02": 0.8999999999999999,
+          "p03": 0.815,
+          "p04": 1,
+          "p05": 0.85,
+          "p06": 1.0,
+          "p07": 0.49999999999999994,
+          "p08": 0.39999999999999997,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          }
+        },
+        "raw_score": 0.490633594568033,
+        "ewma_score": 0.4143175203594922,
+        "gated": false
+      }
+    ],
+    "c08": [
+      {
+        "checked_at": "2025-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.8,
+          "p02": 0.5,
+          "p03": 0.515,
+          "p04": 0,
+          "p05": 0.39999999999999997,
+          "p06": 1.0,
+          "p07": 0.39999999999999997,
+          "p08": 0.5,
+          "p09": 0.2,
+          "p10": 0.4,
+          "p11": 0.6000000000000001
+        },
+        "parameters": {
+          "p01": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p04": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p05": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p10": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p11": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          }
+        },
+        "raw_score": 0.14850039620534183,
+        "ewma_score": 0.14850039620534183,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.5,
+          "p03": 0.515,
+          "p04": 0,
+          "p05": 0.39999999999999997,
+          "p06": 1.0,
+          "p07": 0.39999999999999997,
+          "p08": 0.5,
+          "p09": 0.2,
+          "p10": 0.4,
+          "p11": 0.6000000000000001
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 2.62,
+            "beta": 2.52,
+            "conservative_score": 0.23674761734898653
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p04": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p05": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p10": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p11": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          }
+        },
+        "raw_score": 0.13598329047160507,
+        "ewma_score": 0.1447452644852208,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-09-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.5,
+          "p03": 0.515,
+          "p04": 0,
+          "p05": 0.39999999999999997,
+          "p06": 1.0,
+          "p07": 0.39999999999999997,
+          "p08": 0.5,
+          "p09": 0.2,
+          "p10": 0.4,
+          "p11": 0.6000000000000001
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 3.358,
+            "beta": 2.2680000000000002,
+            "conservative_score": 0.33262653739463943
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p04": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p05": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p10": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p11": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          }
+        },
+        "raw_score": 0.13172944894990998,
+        "ewma_score": 0.14084051982462753,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-12-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.5,
+          "p03": 0.515,
+          "p04": 0,
+          "p05": 0.39999999999999997,
+          "p06": 1.0,
+          "p07": 0.39999999999999997,
+          "p08": 0.5,
+          "p09": 0.2,
+          "p10": 0.4,
+          "p11": 0.6000000000000001
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.0222,
+            "beta": 2.0412000000000003,
+            "conservative_score": 0.41367369868988124
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p04": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p05": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p10": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p11": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          }
+        },
+        "raw_score": 0.1313196560245383,
+        "ewma_score": 0.13798426068460076,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.5,
+          "p03": 0.515,
+          "p04": 0,
+          "p05": 0.39999999999999997,
+          "p06": 1.0,
+          "p07": 0.39999999999999997,
+          "p08": 0.5,
+          "p09": 0.2,
+          "p10": 0.4,
+          "p11": 0.6000000000000001
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.61998,
+            "beta": 1.8370800000000003,
+            "conservative_score": 0.4819060680758368
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p04": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p05": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p10": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p11": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          }
+        },
+        "raw_score": 0.13284977118167324,
+        "ewma_score": 0.1364439138337225,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.5,
+          "p03": 0.515,
+          "p04": 0,
+          "p05": 0.35,
+          "p06": 1.0,
+          "p07": 0.39999999999999997,
+          "p08": 0.5,
+          "p09": 0.2,
+          "p10": 0.4,
+          "p11": 0.6000000000000001
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 5.1579820000000005,
+            "beta": 1.6533720000000003,
+            "conservative_score": 0.5396394241816924
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p04": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p05": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p10": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p11": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          }
+        },
+        "raw_score": 0.13540033672139362,
+        "ewma_score": 0.13613084070002385,
+        "gated": false
+      }
+    ],
+    "c09": [
+      {
+        "checked_at": "2025-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.5,
+          "p03": 0.525,
+          "p04": 0.9,
+          "p05": 0.5499999999999999,
+          "p06": 1.0,
+          "p07": 0.19999999999999996,
+          "p08": 0.19999999999999996,
+          "p09": 0.2,
+          "p10": 0.3,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p05": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p10": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          }
+        },
+        "raw_score": 0.18825314115735337,
+        "ewma_score": 0.18825314115735337,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.5,
+          "p03": 0.525,
+          "p04": 0.9,
+          "p05": 0.5499999999999999,
+          "p06": 1.0,
+          "p07": 0.19999999999999996,
+          "p08": 0.19999999999999996,
+          "p09": 0.2,
+          "p10": 0.3,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p05": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p10": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          }
+        },
+        "raw_score": 0.19232792251941208,
+        "ewma_score": 0.18947557556597097,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-09-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.5,
+          "p03": 0.54,
+          "p04": 0.9,
+          "p05": 0.5499999999999999,
+          "p06": 1.0,
+          "p07": 0.19999999999999996,
+          "p08": 0.19999999999999996,
+          "p09": 0.2,
+          "p10": 0.3,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p03": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p05": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p10": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          }
+        },
+        "raw_score": 0.19993739309281658,
+        "ewma_score": 0.19261412082402465,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-12-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.6,
+          "p03": 0.555,
+          "p04": 0.9,
+          "p05": 0.75,
+          "p06": 1.0,
+          "p07": 0.19999999999999996,
+          "p08": 0.19999999999999996,
+          "p09": 0.5,
+          "p10": 0.3,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 2.3122000000000003,
+            "beta": 3.7512000000000003,
+            "conservative_score": 0.14827656816309273
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 2.3122000000000003,
+            "beta": 3.7512000000000003,
+            "conservative_score": 0.14827656816309273
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 2.3122000000000003,
+            "beta": 3.7512000000000003,
+            "conservative_score": 0.14827656816309273
+          },
+          "p10": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          }
+        },
+        "raw_score": 0.2377524490943151,
+        "ewma_score": 0.20615561930511178,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.6,
+          "p03": 0.565,
+          "p04": 0.9,
+          "p05": 0.75,
+          "p06": 1.0,
+          "p07": 0.49999999999999994,
+          "p08": 0.19999999999999996,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 3.0809800000000003,
+            "beta": 3.3760800000000004,
+            "conservative_score": 0.23444515441012667
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 3.0809800000000003,
+            "beta": 3.3760800000000004,
+            "conservative_score": 0.23444515441012667
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 3.0809800000000003,
+            "beta": 3.3760800000000004,
+            "conservative_score": 0.23444515441012667
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 2.1809800000000004,
+            "beta": 4.276080000000001,
+            "conservative_score": 0.12188420851808032
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          }
+        },
+        "raw_score": 0.28380737825586166,
+        "ewma_score": 0.22945114699033675,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.6,
+          "p03": 0.5700000000000001,
+          "p04": 0.9,
+          "p05": 0.75,
+          "p06": 1.0,
+          "p07": 0.49999999999999994,
+          "p08": 0.19999999999999996,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 3.7728820000000005,
+            "beta": 3.0384720000000005,
+            "conservative_score": 0.31260072752085316
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 3.7728820000000005,
+            "beta": 3.0384720000000005,
+            "conservative_score": 0.31260072752085316
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p07": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 3.7728820000000005,
+            "beta": 3.0384720000000005,
+            "conservative_score": 0.31260072752085316
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 2.9628820000000005,
+            "beta": 3.848472000000001,
+            "conservative_score": 0.20352117435329023
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          }
+        },
+        "raw_score": 0.3261512125617889,
+        "ewma_score": 0.2584611666617724,
+        "gated": false
+      }
+    ],
+    "c10": [
+      {
+        "checked_at": "2025-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.7,
+          "p03": 0.56,
+          "p04": 0.7,
+          "p05": 0.8,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.39999999999999997,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          }
+        },
+        "raw_score": 0.2995608270229857,
+        "ewma_score": 0.2995608270229857,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.7,
+          "p03": 0.6,
+          "p04": 0.7,
+          "p05": 0.65,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.39999999999999997,
+          "p09": 0.2,
+          "p10": 0.8,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 2.52,
+            "beta": 2.62,
+            "conservative_score": 0.21937634753626936
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          }
+        },
+        "raw_score": 0.36310590528750747,
+        "ewma_score": 0.3186243505023422,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-09-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.7,
+          "p03": 0.555,
+          "p04": 0.7,
+          "p05": 0.8,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.39999999999999997,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 3.2680000000000002,
+            "beta": 2.358,
+            "conservative_score": 0.3163149135632309
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          }
+        },
+        "raw_score": 0.4343400559840764,
+        "ewma_score": 0.35333906214686245,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-12-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.7,
+          "p03": 0.595,
+          "p04": 0.7,
+          "p05": 0.65,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.39999999999999997,
+          "p09": 0.2,
+          "p10": 0.8,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 2.9412000000000003,
+            "beta": 3.1222000000000003,
+            "conservative_score": 0.23438626014380873
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          }
+        },
+        "raw_score": 0.4746265583886411,
+        "ewma_score": 0.389725311019396,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.7,
+          "p03": 0.55,
+          "p04": 0.7,
+          "p05": 0.8,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.39999999999999997,
+          "p09": 0.5,
+          "p10": 1.0,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 3.6470800000000003,
+            "beta": 2.8099800000000004,
+            "conservative_score": 0.3171368636392666
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          }
+        },
+        "raw_score": 0.5246718685075568,
+        "ewma_score": 0.4302092782658442,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.7,
+          "p03": 0.59,
+          "p04": 0.7,
+          "p05": 0.65,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.39999999999999997,
+          "p09": 0.2,
+          "p10": 0.8,
+          "p11": 1
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p02": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p08": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p09": {
+            "compliant": false,
+            "alpha": 3.2823720000000005,
+            "beta": 3.5289820000000005,
+            "conservative_score": 0.24463237122686463
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          }
+        },
+        "raw_score": 0.5508544575497072,
+        "ewma_score": 0.4664028320510031,
+        "gated": false
+      }
+    ],
+    "c11": [
+      {
+        "checked_at": "2025-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.5,
+          "p03": 0.725,
+          "p04": 0.7,
+          "p05": 0.6,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.6,
+          "p09": 0.5,
+          "p10": 0.8,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.8,
+            "beta": 2.8,
+            "conservative_score": 0.12729893223093566
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 2.8,
+            "beta": 1.8,
+            "conservative_score": 0.3181121080005911
+          }
+        },
+        "raw_score": 0.29691064402618494,
+        "ewma_score": 0.29691064402618494,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 1.0,
+          "p02": 0.5,
+          "p03": 0.725,
+          "p04": 0.7,
+          "p05": 0.6,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.6,
+          "p09": 0.5,
+          "p10": 0.8,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.62,
+            "beta": 3.52,
+            "conservative_score": 0.08676886884887096
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 3.52,
+            "beta": 1.62,
+            "conservative_score": 0.41721460207839095
+          }
+        },
+        "raw_score": 0.3804984094973332,
+        "ewma_score": 0.3219869736675294,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-09-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.5,
+          "p03": 0.725,
+          "p04": 0.7,
+          "p05": 0.6,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.6,
+          "p09": 0.5,
+          "p10": 0.8,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.4580000000000002,
+            "beta": 4.168,
+            "conservative_score": 0.06059189689928698
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.168,
+            "beta": 1.4580000000000002,
+            "conservative_score": 0.4968038849833797
+          }
+        },
+        "raw_score": 0.44833588630736937,
+        "ewma_score": 0.3598916474594813,
+        "gated": false
+      },
+      {
+        "checked_at": "2025-12-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.5,
+          "p03": 0.73,
+          "p04": 0.7,
+          "p05": 0.6,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.6,
+          "p09": 0.5,
+          "p10": 0.8,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.3122000000000003,
+            "beta": 4.751200000000001,
+            "conservative_score": 0.04279239581234223
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 4.751200000000001,
+            "beta": 1.3122000000000003,
+            "conservative_score": 0.5613767605639526
+          }
+        },
+        "raw_score": 0.5037562755915513,
+        "ewma_score": 0.4030510358991023,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-03-31",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.5,
+          "p03": 0.73,
+          "p04": 0.7,
+          "p05": 0.6,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.6,
+          "p09": 0.5,
+          "p10": 0.8,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.1809800000000004,
+            "beta": 5.276080000000001,
+            "conservative_score": 0.03030441497237265
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.276080000000001,
+            "beta": 1.1809800000000004,
+            "conservative_score": 0.6145113810284798
+          }
+        },
+        "raw_score": 0.5495994959111346,
+        "ewma_score": 0.44701557390271196,
+        "gated": false
+      },
+      {
+        "checked_at": "2026-06-30",
+        "status": "Violated",
+        "normalized_scores": {
+          "p01": 0.9,
+          "p02": 0.5,
+          "p03": 0.735,
+          "p04": 0.7,
+          "p05": 0.6,
+          "p06": 1.0,
+          "p07": 0.7,
+          "p08": 0.6,
+          "p09": 0.5,
+          "p10": 0.8,
+          "p11": 0.8
+        },
+        "parameters": {
+          "p01": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p02": {
+            "compliant": false,
+            "alpha": 1.0628820000000003,
+            "beta": 5.748472000000001,
+            "conservative_score": 0.021381724013645725
+          },
+          "p03": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p04": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p05": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p06": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p07": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p08": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p09": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p10": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          },
+          "p11": {
+            "compliant": true,
+            "alpha": 5.748472000000001,
+            "beta": 1.0628820000000003,
+            "conservative_score": 0.6588559632573416
+          }
+        },
+        "raw_score": 0.5880254922302642,
+        "ewma_score": 0.48931854940097763,
+        "gated": false
+      }
+    ]
+  }
+}

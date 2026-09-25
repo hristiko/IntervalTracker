@@ -1,0 +1,57 @@
+{
+  "p01": {
+    "parameter": "Date of incorporation",
+    "lower": 0.9,
+    "upper": 1
+  },
+  "p02": {
+    "parameter": "Licenses and regulatory registrations",
+    "lower": 0.7,
+    "upper": 1
+  },
+  "p03": {
+    "parameter": "Material Contracts",
+    "lower": 0.55,
+    "upper": 1
+  },
+  "p04": {
+    "parameter": "Founder and executive biographies, track record, prior ventures",
+    "lower": 0.5,
+    "upper": 1
+  },
+  "p05": {
+    "parameter": "Advisory board and board of directors composition",
+    "lower": 0.6,
+    "upper": 1
+  },
+  "p06": {
+    "parameter": "Background/criminal checks and sanctions screening (PEP, OFAC, EU lists)",
+    "lower": 1,
+    "upper": 1
+  },
+  "p07": {
+    "parameter": "Revenu Trend",
+    "lower": 0.5,
+    "upper": 1
+  },
+  "p08": {
+    "parameter": "EBITDA Trenda",
+    "lower": 0.5,
+    "upper": 1
+  },
+  "p09": {
+    "parameter": "Debt Structure",
+    "lower": 0.5,
+    "upper": 1
+  },
+  "p10": {
+    "parameter": "Auditor identity, audit opinion, and any qualifications",
+    "lower": 0.7,
+    "upper": 1
+  },
+  "p11": {
+    "parameter": "Products/services description and value proposition",
+    "lower": 0.8,
+    "upper": 1
+  }
+}

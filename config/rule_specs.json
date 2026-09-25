@@ -1,0 +1,278 @@
+{
+  "p01": {
+    "parameter": "Date of incorporation",
+    "type": "banded_then_decay",
+    "required_facts": [
+      "incorporation_date"
+    ],
+    "derived_inputs": {
+      "age_months": {
+        "op": "months_between",
+        "from": "incorporation_date",
+        "to": "checked_at"
+      }
+    },
+    "on": "age_months",
+    "bands": [
+      [
+        0,
+        12,
+        0.7
+      ],
+      [
+        12,
+        24,
+        0.8
+      ],
+      [
+        24,
+        36,
+        0.9
+      ],
+      [
+        36,
+        60,
+        1.0
+      ]
+    ],
+    "after": {
+      "start_at": 60,
+      "base": 1.0,
+      "step_size": 12,
+      "per_step": -0.1,
+      "floor": 0.0
+    },
+    "assumption": "Bands are [from, to) in months. From 60 months on, every started year (12 months) lowers the score by 0.10: 60-71 months = 0.90, 72-83 = 0.80, and so on, never below the floor."
+  },
+  "p02": {
+    "parameter": "Licenses and regulatory registrations",
+    "type": "base_plus_terms",
+    "required_facts": [
+      "licenses"
+    ],
+    "base": 0.5,
+    "terms": [
+      {
+        "fact": "licenses",
+        "contains": "ISO",
+        "add": 0.2
+      },
+      {
+        "fact": "licenses",
+        "contains": "financial",
+        "add": 0.2
+      },
+      {
+        "fact": "licenses",
+        "contains": "fintech",
+        "add": 0.1
+      },
+      {
+        "fact": "licenses",
+        "contains": "other",
+        "add": 0.1
+      }
+    ],
+    "clip": [
+      0,
+      1
+    ],
+    "assumption": "'fintech (or any other)' is split into 'fintech' and 'other', each adding 0.10. Each license type counts once."
+  },
+  "p03": {
+    "parameter": "Material Contracts",
+    "type": "base_plus_terms",
+    "required_facts": [
+      "contracts_count"
+    ],
+    "base": 0.5,
+    "terms": [
+      {
+        "fact": "contracts_count",
+        "per_unit": 0.005
+      }
+    ],
+    "clip": [
+      0,
+      1
+    ],
+    "assumption": "'0,5%' is read as 0.5 percentage points (0.005) per contract, so 100 contracts are needed to reach 1.0. Confirm with the document owner."
+  },
+  "p04": {
+    "parameter": "Founder and executive biographies, track record, prior ventures",
+    "type": "base_plus_terms",
+    "required_facts": [
+      "founder_experience.bio_experiences",
+      "founder_experience.track_records",
+      "founder_experience.prior_ventures"
+    ],
+    "base": 0.0,
+    "terms": [
+      {
+        "fact": "founder_experience.bio_experiences",
+        "per_unit": 0.1
+      },
+      {
+        "fact": "founder_experience.track_records",
+        "per_unit": 0.2
+      },
+      {
+        "fact": "founder_experience.prior_ventures",
+        "per_unit": 0.3
+      }
+    ],
+    "clip": [
+      0,
+      1
+    ]
+  },
+  "p05": {
+    "parameter": "Advisory board and board of directors composition",
+    "type": "base_plus_terms",
+    "required_facts": [
+      "advisors.relevant",
+      "advisors.irrelevant"
+    ],
+    "base": 0.5,
+    "terms": [
+      {
+        "fact": "advisors.relevant",
+        "per_unit": 0.1
+      },
+      {
+        "fact": "advisors.irrelevant",
+        "per_unit": -0.05
+      }
+    ],
+    "clip": [
+      0,
+      1
+    ]
+  },
+  "p06": {
+    "parameter": "Background/criminal checks and sanctions screening (PEP, OFAC, EU lists)",
+    "type": "boolean_map",
+    "required_facts": [
+      "sanctions_hit"
+    ],
+    "fact": "sanctions_hit",
+    "if_true": 0.0,
+    "if_false": 1.0,
+    "gate": true,
+    "assumption": "gate=true: a hit is a knockout that fails the whole due diligence, not just a weighted low score."
+  },
+  "p07": {
+    "parameter": "Revenu Trend",
+    "type": "base_plus_terms",
+    "required_facts": [
+      "financials.has_revenue",
+      "financials.revenue_growth_years",
+      "financials.revenue_decline_years"
+    ],
+    "base": 0.5,
+    "terms": [
+      {
+        "fact": "financials.revenue_growth_years",
+        "per_unit": 0.1
+      },
+      {
+        "fact": "financials.revenue_decline_years",
+        "per_unit": -0.2
+      }
+    ],
+    "clip": [
+      0,
+      1
+    ],
+    "assumption": "The 0.50 base applies whether or not revenue exists; growing and declining years are then added on top."
+  },
+  "p08": {
+    "parameter": "EBITDA Trenda",
+    "type": "base_plus_terms",
+    "required_facts": [
+      "financials.has_ebitda",
+      "financials.ebitda_growth_years",
+      "financials.ebitda_decline_years"
+    ],
+    "base": 0.5,
+    "terms": [
+      {
+        "fact": "financials.ebitda_growth_years",
+        "per_unit": 0.1
+      },
+      {
+        "fact": "financials.ebitda_decline_years",
+        "per_unit": -0.2
+      }
+    ],
+    "clip": [
+      0,
+      1
+    ],
+    "assumption": "Same reading as revenue trend."
+  },
+  "p09": {
+    "parameter": "Debt Structure",
+    "type": "categorical",
+    "required_facts": [
+      "debt"
+    ],
+    "fact": "debt",
+    "map": {
+      "none": 1.0,
+      "scheduled": 0.5,
+      "unscheduled": 0.2
+    }
+  },
+  "p10": {
+    "parameter": "Auditor identity, audit opinion, and any qualifications",
+    "type": "categorical",
+    "required_facts": [
+      "audit",
+      "financials.has_revenue"
+    ],
+    "fact": "audit",
+    "map": {
+      "positive_legit": 1.0,
+      "not_legit": 0.8,
+      "negative": 0.3,
+      "none": {
+        "when": "financials.has_revenue",
+        "if_true": 0.4,
+        "if_false": 0.7
+      }
+    }
+  },
+  "p11": {
+    "parameter": "Products/services description and value proposition",
+    "type": "base_plus_terms",
+    "required_facts": [
+      "value_proposition.description",
+      "value_proposition.market_analysis",
+      "value_proposition.value_proposition"
+    ],
+    "base": 1.0,
+    "terms": [
+      {
+        "fact": "value_proposition.description",
+        "equals": "weak",
+        "add": -0.2
+      },
+      {
+        "fact": "value_proposition.market_analysis",
+        "equals": "weak",
+        "add": -0.2
+      },
+      {
+        "fact": "value_proposition.value_proposition",
+        "equals": "weak",
+        "add": -0.2
+      }
+    ],
+    "clip": [
+      0,
+      1
+    ],
+    "assumption": "Each weak point lowers the score by 0.20 (three weak points = 0.40). If the document means a single 0.20 cut regardless of count, change this rule."
+  }
+}

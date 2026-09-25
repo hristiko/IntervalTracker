@@ -1,23 +1,3 @@
-"""
-Data intake
-===========
-Takes raw entity observations and produces only validated, timestamped ones.
-
-    data/entities.json               (who the companies are)
-    data/observations_raw.json       (facts exactly as they arrived; never modified)
-    config/parameters_config.json    (which facts the rules need)
-              |
-              v
-    data/observations_validated.json (clean records, the only file the engine reads)
-    data/observations_rejected.json  (failed records, each with the reasons)
-
-It does NOT score, normalize, or judge whether a value is good or bad.
-It only answers: "is this record complete and trustworthy enough to score?"
-
-Run (after parser_config.py has produced the config):
-    python data_intake.py
-    python data_intake.py --strict      # exit code 2 if any record was rejected
-"""
 from __future__ import annotations
 
 import argparse
@@ -41,11 +21,6 @@ DEFAULT_REJECTED = BASE_DIR / "data" / "observations_rejected.json"
 class IntakeError(Exception):
     """Raised when intake cannot run at all (bad files or config/schema mismatch)."""
 
-
-# --------------------------------------------------------------------------
-# What a valid fact looks like. Facts use dot notation for nested values,
-# e.g. "financials.has_revenue" is {"financials": {"has_revenue": ...}}.
-# --------------------------------------------------------------------------
 _COUNT = {"type": "count"}
 _BOOL = {"type": "bool"}
 _RATING = {"type": "enum", "allowed": ["good", "weak"]}
@@ -76,13 +51,8 @@ FACT_SCHEMA: dict[str, dict] = {
 _DATE_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 _MISSING = object()
 
-
-# --------------------------------------------------------------------------
-# Helpers
-# --------------------------------------------------------------------------
 def _utc_now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
-
 
 def _parse_date(value: Any) -> Optional[date]:
     """Strict YYYY-MM-DD only."""
@@ -93,7 +63,6 @@ def _parse_date(value: Any) -> Optional[date]:
     except ValueError:
         return None
 
-
 def _get(data: dict, path: str) -> Any:
     current: Any = data
     for part in path.split("."):
@@ -102,14 +71,12 @@ def _get(data: dict, path: str) -> Any:
         current = current[part]
     return current
 
-
 def _set(data: dict, path: str, value: Any) -> None:
     parts = path.split(".")
     current = data
     for part in parts[:-1]:
         current = current.setdefault(part, {})
     current[parts[-1]] = value
-
 
 def _flatten(data: dict, prefix: str = "") -> Iterator[tuple[str, Any]]:
     for key, value in data.items():
@@ -118,7 +85,6 @@ def _flatten(data: dict, prefix: str = "") -> Iterator[tuple[str, Any]]:
             yield from _flatten(value, path + ".")
         else:
             yield path, value
-
 
 def _check_value(value: Any, rule: dict) -> Optional[str]:
     """Return a problem description, or None if the value is valid."""
@@ -144,16 +110,11 @@ def _check_value(value: Any, rule: dict) -> Optional[str]:
         return None
     raise IntakeError(f"Unknown schema type '{kind}'")
 
-
-# --------------------------------------------------------------------------
-# Config <-> schema compatibility
-# --------------------------------------------------------------------------
 def required_facts(config: dict) -> list[str]:
     facts: set[str] = set()
     for parameter in config["parameters"]:
         facts.update(parameter["rule_spec"]["required_facts"])
     return sorted(facts)
-
 
 def _spec_value_references(spec: dict) -> Iterator[tuple[str, str]]:
     """Yield (fact, literal value) pairs that a rule compares against."""
@@ -165,7 +126,6 @@ def _spec_value_references(spec: dict) -> Iterator[tuple[str, str]]:
             for kind in ("contains", "equals"):
                 if kind in term:
                     yield term["fact"], term[kind]
-
 
 def check_config_against_schema(config: dict) -> None:
     """Fail early if the rulebook needs a fact (or a value) that intake does not know."""
@@ -184,10 +144,6 @@ def check_config_against_schema(config: dict) -> None:
     if problems:
         raise IntakeError("Config and intake disagree:\n  - " + "\n  - ".join(problems))
 
-
-# --------------------------------------------------------------------------
-# Loading files
-# --------------------------------------------------------------------------
 def _load_json(path: Path, what: str) -> Any:
     path = Path(path)
     if not path.exists():
@@ -196,7 +152,6 @@ def _load_json(path: Path, what: str) -> Any:
         return json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
         raise IntakeError(f"{what} is not valid JSON ({path}): {exc}") from exc
-
 
 def _load_entities(path: Path) -> dict[str, dict]:
     data = _load_json(path, "Entities file")
@@ -212,14 +167,12 @@ def _load_entities(path: Path) -> dict[str, dict]:
         entities[item["id"]] = item
     return entities
 
-
 def _load_raw(path: Path) -> list:
     data = _load_json(path, "Raw observations file")
     items = data.get("observations") if isinstance(data, dict) else None
     if not isinstance(items, list):
         raise IntakeError("Raw observations file must look like {\"observations\": [ ... ]}")
     return items
-
 
 def _load_previous(path: Path) -> dict[tuple[str, str], dict]:
     """Earlier validated records, so re-running intake keeps their original ingested_at."""
@@ -232,20 +185,13 @@ def _load_previous(path: Path) -> dict[tuple[str, str], dict]:
     except (json.JSONDecodeError, KeyError, TypeError):
         return {}
 
-
-# --------------------------------------------------------------------------
-# Validating one record
-# --------------------------------------------------------------------------
 def validate_record(
     record: Any,
     entities: dict[str, dict],
     required: set[str],
     seen: set[tuple[str, str]],
 ) -> tuple[Optional[dict], list[str], list[str]]:
-    """
-    Returns (clean_record_or_None, errors, warnings).
-    A record with any error is rejected; warnings do not block it.
-    """
+
     errors: list[str] = []
     warnings: list[str] = []
 
@@ -309,7 +255,6 @@ def validate_record(
                 if financials.get(key, 0) != 0:
                     errors.append(f"financials.{key} must be 0 when financials.has_{prefix} is false")
 
-    # --- 4. One observation per company per date --------------------------
     if not errors:
         key = (entity_id, checked_raw)
         if key in seen:
@@ -321,10 +266,6 @@ def validate_record(
         return None, errors, warnings
     return {"entity_id": entity_id, "checked_at": checked_raw, "facts": clean_facts}, [], warnings
 
-
-# --------------------------------------------------------------------------
-# Running intake
-# --------------------------------------------------------------------------
 def run_intake(
     config_path: Path | str = DEFAULT_CONFIG,
     entities_path: Path | str = DEFAULT_ENTITIES,

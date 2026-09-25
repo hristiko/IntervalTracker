@@ -20,7 +20,6 @@ def good_record():
     return copy.deepcopy(read_json(RAW)["observations"][0])  # c01, first check
 
 
-# ---------------- real fake data ----------------
 def test_all_fake_observations_pass(built_config, workdir):
     summary = run(built_config, workdir)
     assert (summary["total"], summary["validated"], summary["rejected"]) == (62, 62, 0)
@@ -55,7 +54,6 @@ def test_changed_facts_get_a_new_timestamp(built_config, workdir):
     assert stamps[("c01", "2025-06-30")] == "2026-01-01T00:00:00+00:00"
 
 
-# ---------------- rejection cases ----------------
 def mutate(fn):
     record = good_record()
     fn(record)
@@ -108,7 +106,6 @@ def test_rejected_file_is_written_with_reasons(built_config, workdir):
     assert rejected["count"] == 1 and rejected["rejected"][0]["errors"]
 
 
-# ---------------- config / schema compatibility ----------------
 def test_config_requiring_unknown_fact_stops_intake(built_config, workdir):
     config = read_json(built_config)
     config["parameters"][2]["rule_spec"]["required_facts"].append("mystery_fact")

@@ -9,7 +9,6 @@ def build(workdir):
     return pc.build_config(workdir / "rulebook.xlsx", workdir / "rule_specs.json", workdir / "intervals.json")
 
 
-# ---------------- happy path against the real workbook ----------------
 def test_parses_all_11_parameters_with_stable_ids(workdir):
     parsed = pc.parse_excel(workdir / "rulebook.xlsx")
     assert [p["id"] for p in parsed["parameters"]] == [f"p{i:02d}" for i in range(1, 12)]
@@ -34,7 +33,6 @@ def test_source_note_is_captured(workdir):
 
 
 def test_regression_no_crash_on_read_only_dimensions(workdir):
-    # The first version used read_only=True, where max_row is None, and crashed here.
     assert len(pc.parse_excel(workdir / "rulebook.xlsx")["parameters"]) == 11
 
 
@@ -62,7 +60,6 @@ def test_save_and_load_roundtrip_and_archive(workdir):
     assert pc.load_config(out)["config_version"] == config["config_version"]
 
 
-# ---------------- failure cases ----------------
 def test_hand_edited_config_is_detected(workdir):
     out = pc.save_config(build(workdir), workdir / "out.json", versions_dir=None)
     data = read_json(out)

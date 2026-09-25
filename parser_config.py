@@ -1,17 +1,3 @@
-"""
-Parser and config
-=================
-Reads the Excel rulebook, attaches the hand-written rule specs and the
-user-defined intervals, validates everything and writes one versioned,
-machine-readable file: config/parameters_config.json
-
-It does NOT touch entity data, normalize values, or calculate scores.
-
-Run from anywhere:
-    python parser_config.py                    # build the config
-    python parser_config.py --strict           # refuse to build if any interval is missing
-    python parser_config.py --init-intervals   # create an empty intervals.json template
-"""
 from __future__ import annotations
 
 import argparse
@@ -32,7 +18,6 @@ DEFAULT_INTERVALS = CONFIG_DIR / "intervals.json"
 DEFAULT_OUTPUT = CONFIG_DIR / "parameters_config.json"
 DEFAULT_VERSIONS_DIR = CONFIG_DIR / "versions"
 
-# The workbook says "Weigh"; internally we call it "weight".
 HEADER_ALIASES = {
     "parameter": "parameter",
     "field": "field",
@@ -50,25 +35,17 @@ DERIVED_OPS = ("months_between",)
 class ConfigError(Exception):
     """Raised for any problem with the source document or configuration files."""
 
-
-# --------------------------------------------------------------------------
-# Small helpers
-# --------------------------------------------------------------------------
 def _is_number(value: Any) -> bool:
     return isinstance(value, (int, float)) and not isinstance(value, bool)
 
-
 def _clean(value: Any) -> Any:
-    """Strip surrounding whitespace from text; empty text becomes None."""
     if isinstance(value, str):
         value = value.strip()
         return value or None
     return value
 
-
 def file_sha256(path: Path) -> str:
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
-
 
 def _read_json(path: Path, what: str) -> Any:
     path = Path(path)
@@ -80,21 +57,14 @@ def _read_json(path: Path, what: str) -> Any:
     except json.JSONDecodeError as exc:
         raise ConfigError(f"{what} is not valid JSON ({path}): {exc}") from exc
 
-
 def _raise_if(errors: list[str], title: str) -> None:
     if errors:
         raise ConfigError(title + ":\n  - " + "\n  - ".join(errors))
 
-
 def _version_of(parameters: list[dict]) -> str:
-    """Content-based version: any change to a rule, weight or interval changes it."""
     canonical = json.dumps(parameters, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
     return hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:12]
 
-
-# --------------------------------------------------------------------------
-# 1. Parse the Excel document
-# --------------------------------------------------------------------------
 def _find_header(rows: list[tuple]) -> tuple[int, dict[str, int]]:
     for index, row in enumerate(rows[:10]):
         mapping: dict[str, int] = {}
@@ -110,7 +80,6 @@ def _find_header(rows: list[tuple]) -> tuple[int, dict[str, int]]:
         "in the first 10 rows of the sheet."
     )
 
-
 def _to_weight(value: Any, parameter: str, row_number: int) -> float | int:
     if isinstance(value, str):
         try:
@@ -123,19 +92,12 @@ def _to_weight(value: Any, parameter: str, row_number: int) -> float | int:
         raise ConfigError(f"Row {row_number} ('{parameter}'): weight cannot be negative ({value}).")
     return int(value) if float(value).is_integer() else float(value)
 
-
 def parse_excel(path: Path | str = DEFAULT_EXCEL, sheet_name: Optional[str] = None) -> dict:
-    """
-    Extract the parameter table. Parameter, Field, Context and Rule are kept as
-    written (only surrounding whitespace is trimmed), including typos.
-    IDs (p01, p02, ...) follow row order.
-    """
+
     path = Path(path)
     if not path.exists():
         raise ConfigError(f"Excel file not found: {path}")
 
-    # NOTE: deliberately NOT read_only=True. In read-only mode openpyxl returns
-    # max_row/max_column = None for this workbook, which crashed the first version.
     workbook = load_workbook(filename=path, data_only=True)
     try:
         if sheet_name is None:
@@ -192,10 +154,6 @@ def parse_excel(path: Path | str = DEFAULT_EXCEL, sheet_name: Optional[str] = No
         "parameters": parameters,
     }
 
-
-# --------------------------------------------------------------------------
-# 2. Rule specs (machine-executable version of each Rule sentence)
-# --------------------------------------------------------------------------
 def _validate_spec(pid: str, spec: dict, errors: list[str]) -> None:
     def err(message: str) -> None:
         errors.append(f"{pid}: {message}")
@@ -313,7 +271,6 @@ def _validate_spec(pid: str, spec: dict, errors: list[str]) -> None:
         if "gate" in spec and not isinstance(spec["gate"], bool):
             err("'gate' must be true or false")
 
-
 def attach_rule_specs(parameters: list[dict], specs: Any, errors: list[str]) -> None:
     if not isinstance(specs, dict):
         raise ConfigError("Rule specs file must be a JSON object keyed by parameter ID (p01, p02, ...).")
@@ -335,9 +292,6 @@ def attach_rule_specs(parameters: list[dict], specs: Any, errors: list[str]) -> 
         p["rule_spec"] = body
 
 
-# --------------------------------------------------------------------------
-# 3. Intervals
-# --------------------------------------------------------------------------
 def attach_intervals(parameters: list[dict], intervals: Any, errors: list[str]) -> None:
     if not isinstance(intervals, dict):
         raise ConfigError("Intervals file must be a JSON object keyed by parameter ID (p01, p02, ...).")
@@ -372,20 +326,17 @@ def attach_intervals(parameters: list[dict], intervals: Any, errors: list[str]) 
         else:
             p["interval"] = {"lower": lower, "upper": upper}
 
-
 def missing_intervals(config: dict) -> list[str]:
     return [
         p["id"] for p in config["parameters"]
         if p["interval"]["lower"] is None or p["interval"]["upper"] is None
     ]
 
-
 def require_complete(config: dict) -> None:
     """The scoring engine should call this before using a config."""
     missing = missing_intervals(config)
     if missing:
         raise ConfigError("Intervals are not configured for: " + ", ".join(missing))
-
 
 def init_intervals(excel_path: Path | str = DEFAULT_EXCEL, intervals_path: Path | str = DEFAULT_INTERVALS) -> Path:
     """Create an empty intervals template. Never overwrites an existing file."""
@@ -398,10 +349,6 @@ def init_intervals(excel_path: Path | str = DEFAULT_EXCEL, intervals_path: Path 
     intervals_path.write_text(json.dumps(template, indent=2, ensure_ascii=False), encoding="utf-8")
     return intervals_path
 
-
-# --------------------------------------------------------------------------
-# 4. Build, save, load
-# --------------------------------------------------------------------------
 def build_config(
     excel_path: Path | str = DEFAULT_EXCEL,
     rule_specs_path: Path | str = DEFAULT_RULE_SPECS,
@@ -431,7 +378,6 @@ def build_config(
     config["complete"] = not missing_intervals(config)
     return config
 
-
 def save_config(
     config: dict,
     output_path: Path | str = DEFAULT_OUTPUT,
@@ -448,7 +394,6 @@ def save_config(
         if not archive.exists():
             archive.write_text(text, encoding="utf-8")
     return output_path
-
 
 def load_config(path: Path | str = DEFAULT_OUTPUT, require_complete_intervals: bool = False) -> dict:
     """Load a generated config and verify it was not edited by hand afterwards."""
@@ -469,10 +414,6 @@ def load_config(path: Path | str = DEFAULT_OUTPUT, require_complete_intervals: b
         require_complete(config)
     return config
 
-
-# --------------------------------------------------------------------------
-# Command line
-# --------------------------------------------------------------------------
 def main(argv: Optional[list[str]] = None) -> int:
     parser = argparse.ArgumentParser(description="Build parameters_config.json from the Excel rulebook.")
     parser.add_argument("--excel", default=str(DEFAULT_EXCEL))
@@ -509,7 +450,6 @@ def main(argv: Optional[list[str]] = None) -> int:
     print(f"Intervals set  : {'all' if config['complete'] else 'INCOMPLETE - missing ' + ', '.join(missing_intervals(config))}")
     print(f"Written to     : {output}")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())
